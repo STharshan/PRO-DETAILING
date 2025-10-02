@@ -5,22 +5,22 @@ import "aos/dist/aos.css";
 const testimonials = [
   {
     quote:
-      "Got a starlight headliner done from them and it was done quickly and to a high standard. Would highly recommend",
-    author: "EEVAN S",
+      "Fantastic service, booked the Gold package for full interior and exterior valet and couldn’t be happier with the results. The car has been restored to showroom quality. Will definitely be booking again! Thanks",
+    author: "James",
   },
   {
     quote:
-      "Toni and his team are lovely. Very friendly and worked well within the timeframe agreed and were very cost-effective. Absolutely recommend this team 👍.",
-    author: "RENOL K",
+      "Fantastic service! Would highly recommend. I came across Pro Detailing on an add on Instagram. They were offering a full detail, usually £180 for half price.",
+    author: "Danny",
   },
   {
-    quote: "Exceptional service! My car looks as good as new. Highly recommend!",
-    author: "KIRK S",
+    quote: "Really happy with the results! The car was cleaned inside and out with amazing attention to detail, and it makes it look newer than it is",
+    author: "Anbiyaa Mahmood",
   },
   {
     quote:
-      "Fantastic service. Had my Range Rover serviced by these guys, quick turn around good pricing. Will definitely be a repeat customer",
-    author: "TARVINDER B",
+      "Such an amazing service—he did a fantastic job and was super thorough inside and out! From booking to the actual detail, everything was professional and he spent 4 hours providing a great service, my car looks brand new. Couldn’t be happier, would definitely recommend. Thank you so much!",
+    author: "Taybah Ditta",
   },
 ];
 
