@@ -14,7 +14,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="relative w-full min-h-screen text-white mb-17">
+    <section className="relative w-full min-h-screen text-white">
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
@@ -75,25 +75,26 @@ const HeroSection = () => {
       </div>
 
       {/* Bottom Info Bar */}
-      <div className="absolute left-0 w-full z-10 border-t bg-black  border-gray-700" data-aos="fade-up" data-aos-delay="700">
-        <div className="mx-auto backdrop-blur-sm flex flex-col sm:flex-row items-center justify-center px-6 py-3 text-white text-sm font-semibold shadow-lg">
-          {/* Rating Section */}
-          <div className="flex items-center gap-3 dark:bg-black border border-gray-600 px-4 py-2 rounded-full order-1 sm:order-2 mb-3 sm:mb-0">
-            {/* Stars */}
-            <div className="flex text-yellow-400 text-lg">
-              <span>★</span>
-              <span>★</span>
-              <span>★</span>
-              <span>★</span>
-              <span>★</span>
-            </div>
-            {/* Rating Text */}
-            <span className="text-white text-sm font-medium">4.7/5 from</span>
-            {/* Reviews Badge */}
-            <span className="bg-secondary border border-gray-600 px-3 py-1 rounded-full text-white text-xs font-medium">
-              84+ Reviews
-            </span>
-          </div>
+     <div className="absolute left-0 w-full z-10 border-t bg-black  border-gray-700" data-aos="fade-up" data-aos-delay="700">
+             <div className="mx-auto backdrop-blur-sm flex flex-col sm:flex-row items-center justify-center px-6 py-3 text-white text-sm font-semibold shadow-lg">
+               {/* Rating Section */}
+               <div className="flex items-center gap-3 dark:bg-black border border-gray-600 px-4 py-2 rounded-full order-1 sm:order-2 mb-3 sm:mb-0">
+                 {/* Stars */}
+                 <div className="flex text-yellow-400 text-lg">
+                   <span>★</span>
+                   <span>★</span>
+                   <span>★</span>
+                   <span>★</span>
+                   <span>★</span>
+                 </div>
+                 {/* Rating Text */}
+                 <span className="text-white text-sm font-medium">4.7/5 from</span>
+                 {/* Reviews Badge */}
+                 <span className="bg-secondary border border-gray-600 px-3 py-1 rounded-full text-white text-xs font-medium">
+                   84+ Reviews
+                 </span>
+               </div>
+     
           {/* TRC Logo */}
           {/* <div className="flex items-center order-2 sm:order-1">
             <img
